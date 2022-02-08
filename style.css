@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+
+.contener{
+  width: 75%;
+  margin: 0 auto;
+
+}
+
+a {
+  color: #333333;
+}
+
+header{
+  padding-top: 10px;
+}
+
+.header-left h1{
+  font-size: 40px;
+  letter-spacing: 5px;
+  font-family: 'Quintessential', cursive;
+}
+
+.top-wrapper{
+  padding-top: 50px;
+  text-align: center;
+}
+
+.page-title{
+  font-size: 5rem;
+  font-family: 'Quintessential', cursive;
+  font-weight: normal;
+  padding-top: 140px;
+  color: white;
+}
+
+#home{
+  background-image: url(1.png);
+  height: 540px;
+}
+
+.nav{
+  padding-bottom: 10px;
+}
+
+.nav-list{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.nav-list a{
+  color: #432;
+  text-decoration: none;
+}
+
+.nav-list li:hover{
+  text-decoration: underline;
+}
+
+.nav-list li{
+  font-size: 16px;
+  padding: 0 25px;
+}
+
+.contents{
+  display: flex;
+}
+
+.profile{
+  padding-left: 80px;
+}
+
+.profile .fab{
+  padding-right: 10px;
+}
+
+.profile-list {
+  font-size: 13px;
+  padding-top: 40px;
+}
+
+
+.main-logo{
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 10px;
+  font-weight: 100;
+  padding: 100px 0 50px 0 ;
+}
+
+.myphoto img{
+  width: 250px;
+  padding: 50px 0 0 60px;
+}
+
+
+.skill-content img{
+  width: 100px;
+  padding-top: 30px;
+}
+
+.contents{
+  display: flex;
+  justify-content: center;
+}
+
+.skill-content{
+  padding: 0 30px;
+}
+
+.Work-wrapper p{
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+.work-content{
+  display: flex;
+  justify-content: center;
+}
+
+
+.Work-contents{
+  padding: 0 90px;
+}
+
+
+.Work-contents img{
+  width: 200px;
+  padding-top: 40px;
+}
+
+.Work-contents p {
+  text-align: center;
+  padding-top: 20px;
+  letter-spacing: 2px;
+}
+
+.contact-menu{
+  text-align: center;
+}
+
+.contact-menu .fab{
+  padding: 0 4%;
+}
+
+footer{
+  padding-top: 150px;
+}
+
+footer .nav-list{
+  justify-content: flex-start;
+  padding: 0 0 40px 0;
+}
+
+.matcingIamge1{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.matcingIamge2{
+  display: flex;
+  justify-content: center;
+}
+
+.imging{
+  padding: 0 40px;
+}
+
+.imging img {
+  width: 200px;
+}
+
+.imging p {
+  text-align: center;
+  padding-top: 5px;
+  letter-spacing: 2px;
+}
+
+.main {
+  background-color: rgb(221, 221, 221);
+}
+
+.sub-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0 10px 0 ;
+}
+
+.sub-logo:before, .sub-logo:after {
+  border-top: 1px solid;
+  content: "";
+  flex-grow: 1;
+}
+.sub-logo:before {
+  margin-right: 2em;
+}
+
+.sub-logo:after {
+  margin-left: 2em;
+}
+
+.explanations{
+  text-align: center;
+}
+
+.Technology{
+  text-align: center;
+}
+
+.explanation {
+  padding: 30px 0 30px 0 ;
+}
+
+
+.Button {
+  background: #0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px  20px;
+  text-decoration: none;
+}
+
+.Button:hover{
+  background: #0090aa;
+}
